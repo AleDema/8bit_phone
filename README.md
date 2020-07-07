@@ -47,7 +47,7 @@ __You not shit with webpack? Feel free to get the stupid thing to work & pack al
 ![Home Screen](https://i.imgur.com/4Byt7MO.png)
 
 ### Contacts
-![Contacts App](https://i.imgur.com/YiZMFi6.png)
+![Contacts App](https://i.imgur.com/4fmGeRd.png)
 ![Contacts App](https://i.imgur.com/OHnemDg.png)
 
 ### Messages
