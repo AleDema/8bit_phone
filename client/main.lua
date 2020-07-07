@@ -271,7 +271,8 @@ end)
 
 RegisterNUICallback('opentablet', function()
   Wait(500)
-  TriggerEvent("tabletthingycumonscrin")
+  --[[ Open your table here ]]
+  print('This will hapenn on clinet/main.lua on line 275 add function there to make this function')
 end)
 
 RegisterNUICallback('opencamera', function()
