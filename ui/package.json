@@ -1,0 +1,36 @@
+{
+  "name": "8bit_phone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/build.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "yarn run build -- --watch"
+  },
+  "keywords": [],
+  "author": "Alzar",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "animejs": "^3.1.0",
+    "css-loader": "^3.2.0",
+    "font-awesome": "^4.7.0",
+    "inputmask": "^5.0.1",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "materialize": "^1.0.0",
+    "materialize-css": "^1.0.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.0",
+    "nouislider": "^14.1.1",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+<div class="app-container" id="irc-container">
+    <div class="inner-app">
+        <div class="channel-list">
+
+        </div>
+        <a class="btn-floating btn-large waves-effect modal-trigger waves-dark" data-target="irc-join-modal"><i class="fas fa-plus"></i></a>
+    </div>
+    <div id="irc-join-modal" class="modal">
+        <div class="modal-content">
+            <h6>Join Channel</h6>
+            <form id="irc-join-channel">
+                <div class="input-field col s12">
+                    <input id="irc-channel-name" name="irc-channel-name" type="text" class="validate" maxlength="24" required>
+                    <label for="irc-channel-name">Channel Name</label>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-dark btn teal accent-3">Cancel</a>
+            <button class="btn waves-effect waves-dark teal accent-3" type="submit" form="irc-join-channel">Join</button>
+        </div>
+    </div>
+</div>

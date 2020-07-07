@@ -1,0 +1,41 @@
+<div class="app-container" id="dumper-details-container">
+    <div class="inner-app">
+        <div class="dumper-top-bar">
+            <i class="fas fa-chevron-left back-button"></i>
+            <div class="dumper-top-text">
+                App Details: <span>APP_NAME</span>
+            </div>
+            <div class="dumper-top-actions">
+                <i class="fas fa-download" id="dumper-transfer" data-tooltip="Transfer To SD Card"></i>
+                <i class="fas fa-copy" id="dumper-clone" data-tooltip="Clone To SD Card"></i>
+            </div>
+        </div>
+        <div class="dumper-details-section" id="name">
+            <span class="section-header">Name</span><br />
+            <span class="section-data">Home</span>
+        </div>
+        <div class="dumper-details-section" id="package">
+            <span class="section-header">Package</span><br />
+            <span class="section-data">home</span>
+        </div>
+        <div class="dumper-details-section" id="permissions">
+            <span class="section-header">Permission(s)</span><br />
+            <span class="section-data">Transfer;Copy</span>
+        </div>
+        <div class="dumper-details-section" id="legend">
+            <div class="dumper-legend-header">Permission Descriptions</div>
+            <div class="dumper-legend-part" id="APP_TRANSFER">
+                <span class="dumper-legend-key">APP_TRANSFER: </span>
+                <span class="dumper-legend-body">You're able to transfer the app from your phone to the inserted SD card. Doing this action will entirely remove the app from your phone and you will be unable to use it unless you install the app via the SD card you transferred it to.</span>
+            </div>
+            <div class="dumper-legend-part" id="APP_CLONE">
+                <span class="dumper-legend-key">APP_CLONE: </span>
+                <span class="dumper-legend-body">You're able to clone the application package that is installed on your phone and put it on the inserted SD card. Doing this will retain a copy of the app on your phone and provide you with an SD card that allows another person to install that app.</span>
+            </div>
+            <div class="dumper-legend-part" id="APP_NONE">
+                <span class="dumper-legend-key">APP_NONE: </span>
+                <span class="dumper-legend-body">You're unable to copy or transfer that app at all.</span>
+            </div>
+        </div>
+    </div>
+</div>
